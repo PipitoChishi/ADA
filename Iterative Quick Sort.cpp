@@ -1,18 +1,16 @@
 Iterative Quick Sort
-Algorithm
-Input: An array arr of size n.
-Initialize a stack and push the range (0, n-1).
+Algorithm:
+Initialize an empty stack and push the range (low, high).
 
 While the stack is not empty:
 Pop (low, high).
-Choose arr[high] as the pivot.
 
-Partition the array:
-Move elements smaller than the pivot to the left.
-Move elements greater than the pivot to the right.
-Push (low, p-1) and (p+1, high) onto the stack.
-Repeat until all elements are sorted.
-Output the sorted array.
+Partition the array around a pivot:
+Move elements smaller than pivot to the left.
+Move elements greater than pivot to the right.
+Push left and right subarrays (low, p-1) and (p+1, high) onto the stack.
+Repeat until the stack is empty (all elements sorted).
+Return the sorted array.
 
 #include <iostream>
 #include <vector>
