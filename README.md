@@ -72,20 +72,6 @@ MagicSquare.cpp – Magic square generation.
 
 Iterative Quick Sort.cpp – Quick sort without recursion.
 
-🛠️ How to Run
-For C++ files:
-bash
-Copy
-Edit
-g++ filename.cpp -o output
-./output
-For Python files:
-bash
-Copy
-Edit
-python filename.py
-Make sure your environment supports C++11 or above and has Python 3.x installed.
-
 🧾 License
 This repository is for educational purposes only. No license.
 
