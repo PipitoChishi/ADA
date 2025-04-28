@@ -1,11 +1,39 @@
- 📚 Algorithm Lab Assignments
-A collection of algorithm implementations in C++ and Python as part of academic coursework. Covers sorting, searching, graph algorithms, dynamic programming, computational geometry, and more.
+📚 Algorithm Lab Assignments
+Academic coursework projects covering algorithms, dynamic programming, graphs, geometry, and more.
 
-## 🗂️ Directory Overview
-This repository contains various algorithms and problems implemented individually in `.cpp` and `.py` files. Each file corresponds to a specific lab task or concept.
+🗂️ Directory Overview
+This repository contains various algorithms and problems implemented individually in .cpp and .py files. Each file corresponds to a specific lab task or concept.
 
-### 📂 Project Structure
-<tree above here>
+📂 Project Structure
+├── 1Dpeak.cpp
+├── 2DPeak.cpp
+├── Activity selection problem.cpp
+├── APSP.cpp
+├── all_possible_triangle_from_n_elements.cpp
+├── bubblesort.py
+├── convex hull (naive approach).cpp
+├── Cosinesimilarity.cpp
+├── Dijkstra's algorithm.cpp
+├── Find Min and Max using Divide & Conquer.cpp
+├── heapsort.py
+├── insertion.py
+├── Iterative Quick Sort.cpp
+├── knapsack(Profit).cpp
+├── knapsack(weight).cpp
+├── knapsack(profit-to-weight).cpp
+├── knapsackDp.cpp
+├── LCS.cpp
+├── MagicSquare.cpp
+├── Matrix Multiplication using Divide & Conquer.cpp
+├── MCM.cpp
+├── mergesort.py
+├── MultistageGraph.cpp
+├── NQueens.cpp
+├── point_in_triangle.cpp
+├── quicksort.py
+├── selectionsort.py
+├── Strassen's matrix multiplication.cpp
+├── TSP.cpp
 
 🔧 Languages Used
 C++: Core logic-heavy problems and divide & conquer-based tasks.
@@ -58,10 +86,4 @@ Find Min and Max using Divide & Conquer.cpp
 Cosinesimilarity.cpp – Cosine similarity between two vectors.
 MagicSquare.cpp – Magic square generation.
 Iterative Quick Sort.cpp – Quick sort without recursion.
-
-🧾 License
-This repository is for educational purposes only. No license.
-
-👨‍🎓 Author
-Maintained by a Computer Science student. Feel free to fork, use, or contribute!
 
